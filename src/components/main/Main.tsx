@@ -3,18 +3,18 @@ import Particles from "react-tsparticles";
 
 import BootstrapIcon from "../../assets/icons/bootstrap-icon.svg";
 import CssIcon from "../../assets/icons/css-icon.svg";
-
 import HtmlIcon from "../../assets/icons/html-icon.svg";
 import TailwindIcon from "../../assets/icons/tailwindcss-icon.svg";
 import NodeIcon from "../../assets/icons/node-icon.svg";
 import ReactIcon from "../../assets/icons/react-icon.svg";
-
 import JsIcon from "../../assets/icons/js-icon.svg";
 import TypescriptIcon from "../../assets/icons/typescript-icon.svg";
 import VscodeIcon from "../../assets/icons/vscode-icon.svg";
 import SassIcon from "../../assets/icons/sass-icon.svg";
 import GitHubIcon from "../../assets/icons/github-icon.svg";
 import GraphqlIcon from "../../assets/icons/graphql-icon.svg";
+
+import Hero from "../hero/Hero";
 
 export default function Main() {
   return (
@@ -248,6 +248,7 @@ export default function Main() {
           },
         }}
       />
+      <Hero />
     </main>
   );
 }
