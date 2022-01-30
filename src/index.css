@@ -4,6 +4,12 @@
 
 @layer components {
   .header-link {
-    @apply p-3 font-medium uppercase hover:brightness-50;
+    @apply p-3 font-medium uppercase hover:brightness-50 dark:text-white;
+  }
+}
+
+@layer base {
+  body {
+    @apply dark:bg-black;
   }
 }
